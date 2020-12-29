@@ -1,6 +1,7 @@
 import time, os
 from colorama import Fore
 
+version = 'v2.9'
 #color section
 f = Fore
 v = f.MAGENTA
@@ -125,6 +126,45 @@ def winhelp():
  	 ===========================================		
  	""")
 
+	
+def aboutus():
+	print(f"""
+          =============================================
+  	  +|             About this tool             |+
+  	  =============================================
+  	  +|              This Tool Is               |+
+          +|               Is Created                |+
+    	  +|                   By                    |+
+    	  +|            Anikin Luke Abales           |+
+     	  +|  for SudoCentercorp team CyberHackers   |+
+          +|-----------------------------------------|+
+    	  +| Tool name: VirGen | Virus Generator     |+
+   	  +| Use To Create computer/mobile virus     |+
+    	  +| Tool version: {version}                 |+
+          +|-----------------------------------------|+
+    	  +|                Contact                  |+
+    	  +|             Facebook-Group              |+
+    	  +|  facebook.com/groups/sudocyberhackers   |+
+          +|                                         |+
+     	  +|          Discord invite link            |+
+    	  +|     https://discord.gg/H7NXjU9BQ9       |+
+          +|--------------^--------^-----------------|+
+    	  +| Github: https://github.com/abalesluke   |+
+     	  +|                                         |+
+    	  +|                 Note!                   |+
+          +|   This tool is Originally created by me |+
+          +|   so please dont republish it on github |+
+          +|   i do not autorized you to edit this   |+
+          +|   tool or republish it on github.       |+
+          +|                                         |+
+          +|         Editing or changing the         |+
+          +|       name of the coder or developer    |+
+          +|        wont make you a programmer.      |+
+          +|                                         |+
+          +|        [+]Respect the coder's[+]        |+
+          +|     ©️Copyright All Rights Reserved     |+
+           ===========================================  
+	""")
 
 
 
