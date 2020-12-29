@@ -9,8 +9,6 @@ os.system("sudo pip3 install colorama")
 os.system("clear")
 banner1()
 
-print(v+"Type -h or 'help' to show commands\n")
-
 while True:
 	ui = input(g+"AL104~: ").lower()
 	if(ui == "help" or ui == "-h"):
@@ -20,13 +18,13 @@ while True:
 		windows()
 
 	elif(ui == '2'):
-		print('2')
+		print('Comming Soon!')
 
 	elif(ui == '3'):
-		print("3")
+		print("Comming Soon!")
 
 	elif(ui == '4'):
-		print('4')
+		print('Comming Soon!')
 
 	elif(ui == '0'):
 		print("Bye..😥️")
