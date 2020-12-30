@@ -1,12 +1,11 @@
 import os, time
 from conf.banner import *
 from conf.windows import *
-from colorama import Fore
-
 print("Grant us root password by Entering it below.\nwe need root access to install some requirements")
 os.system("sudo apt-get install python3-pip")
 os.system("sudo pip3 install colorama")
 os.system("clear")
+from colorama import Fore
 banner1()
 
 while True:
